@@ -1,0 +1,35 @@
+body {
+    background:darkolivegreen;
+}
+
+.fill {
+    background:pink;
+    position:relative;
+    height:150px;
+    width:150px;
+    top:5px;
+    left:5px;
+    cursor:pointer;
+}
+
+.empty {
+    display:inline-block;
+    height:160px;
+    width:160px;
+    margin:10px;
+    border: 3px solid salmon;
+    background: white;
+}
+
+.hold {
+    border: 4px solid lightgrey;
+}
+
+.hovered {
+    background:lightgrey;
+    border-style:dashed;
+}
+
+.invisible {
+    display:none;
+}
